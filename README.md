@@ -4,6 +4,12 @@
 
 </div>
 
+<p align="center">
+  <img src="https://github.com/sahilmate/nft-marketplace/blob/main/assets/images/androidmascotimg.jpg" "Android Mascot Image" style="max-width: 100%;">
+</p>
+
+
+
 <div align="middle">
   
 # NFT Marketplace
@@ -84,6 +90,7 @@ cd your-repo
 
 - This project uses [Ionicons](https://ionicons.com/ "OSS Icon Set") for icon integration.
 - The design is responsive and suitable for various screen sizes.
+- This mini project is very useful for beginners just getting started with web development as it covers many important and interesting attributes.
 
 Feel free to explore, modify, and enhance this NFT marketplace project!
 
