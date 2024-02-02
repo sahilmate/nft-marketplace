@@ -1,591 +1,571 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NFT Marketplace</title>
-  <link rel="stylesheet" href="style.css"> 
-</head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="nav-container">
+        <!-- logo -->
+        <div class="logo-container">
+          <a href="logo">
+            <img src="./assets/images/logo.png" alt="logo" class="logo" />
+          </a>
+        </div>
+        <!-- nav-links -->
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li>
+              <a href="#NavBar-Home" class="navbar-link">Home</a>
+            </li>
 
-<body>
-  <!-- Navbar -->
-  <header>
-    <div class="nav-container">
-      <!-- logo -->
-      <div class="logo-container">
-        <a href="logo">
-          <img src="./assets/images/logo.png" alt="logo" class="logo">
-        </a>
-      </div>
-      <!-- nav-links -->
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li>
-            <a href="#NavBar-Home" class="navbar-link">Home</a>
-          </li>
+            <li>
+              <a href="#NavBar-About" class="navbar-link">About</a>
+            </li>
 
-          <li>
-            <a href="#NavBar-About" class="navbar-link">About</a>
-          </li>
+            <li>
+              <a href="#NavBar-Explore" class="navbar-link">Explore</a>
+            </li>
 
-          <li>
-            <a href="#NavBar-Explore" class="navbar-link">Explore</a>
-          </li>
+            <li>
+              <a href="#NavBar-Creators" class="navbar-link">Creators</a>
+            </li>
 
-          <li>
-            <a href="#NavBar-Creators" class="navbar-link">Creators</a>
-          </li>
+            <li>
+              <a href="#NavBar-Collections" class="navbar-link">Collections</a>
+            </li>
 
-          <li>
-            <a href="#NavBar-Collections" class="navbar-link">Collections</a>
-          </li>
+            <li>
+              <a href="#NavBar-Blog" class="navbar-link">Blog</a>
+            </li>
 
-          <li>
-            <a href="#NavBar-Blog" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#NavBar-Contact" class="navbar-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <!-- search-bar -->
-      <div class="nav-action">
-        <input type="text" placeholder="Search" class="search-bar">
-
-        <button type="submit" class="btn-primary">
-          Sign-in
-        </button>
-      </div>
-    </div>
-  </header>
-
-
-
-  <main>
-
-    <!--*hero-section -->
-    <section class="hero-section">
-      <!-- left  -->
-
-      <div class="left-sub-section">
-
-        <!-- heading -->
-        <h1 class="left-hero-title">
-          Discover Digital Art Sell Your Specific <span>NFT</span>
-        </h1>
-
-        <!-- desc -->
-
-        <p class="left-hero-desc">
-          In the dynamic world of digital /assets, our NFT marketplace stands at the forefront of innovation, offering a seamless platform for creators, collectors, and enthusiasts alike. Dive into a realm where unique digital art, collectibles, and experiences are tokenized and made truly one-of-a-kind. Discover a curated selection of NFTs, each telling a story, capturing a moment, or expressing the creativity of its creator. Whether you're an artist seeking a global stage for your work or a collector looking to acquire exclusive digital treasures, our NFT marketplace is the nexus where imagination meets blockchain technology. Join us in shaping the future of digital ownership and expression!
-        </p>
-
-        <!-- buttons -->
-        <div class="btn-group">
-          <!-- btn1-->
-          <button class="btn-primary">
-            Explore More
-          </button>
-          <!-- btn-2 -->
-          <button class="btn-secondary">
-            Create Now
-          </button>  
+            <li>
+              <a href="#NavBar-Contact" class="navbar-link">Contact</a>
+            </li>
+          </ul>
         </div>
 
-      </div>
-      <!-- right -->
-      <div class="right-sub-section">
-        <div class="img-container">
-          <img src="./assets/images/hero-banner.jpg" alt="hero-banner" class="hero-banner-img" height="450" width="450">
+        <!-- search-bar -->
+        <div class="nav-action">
+          <input type="text" placeholder="Search" class="search-bar" />
+
+          <button type="submit" class="btn-primary">Sign-in</button>
         </div>
       </div>
-    </section>
+    </header>
 
+    <main>
+      <!--*hero-section -->
+      <section class="hero-section">
+        <!-- left  -->
 
-    <!--* Newest Items -->
-    <section class="newest-section">
-      <!-- upper -->
-      <div class="upper-section">
-        <h1 class="upper-section-title">
-          Newest Items
-        </h1>
+        <div class="left-sub-section">
+          <!-- heading -->
+          <h1 class="left-hero-title">
+            Discover Digital Art Sell Your Specific <span>NFT</span>
+          </h1>
 
-        <button class="btn-primary">
-          View All
-        </button>
-      </div>
-      <!-- lower -->
-      <div class="lower-section">
+          <!-- desc -->
 
-        <ul class="lower-section-ul">
+          <p class="left-hero-desc">
+            In the dynamic world of digital /assets, our NFT marketplace stands
+            at the forefront of innovation, offering a seamless platform for
+            creators, collectors, and enthusiasts alike. Dive into a realm where
+            unique digital art, collectibles, and experiences are tokenized and
+            made truly one-of-a-kind. Discover a curated selection of NFTs, each
+            telling a story, capturing a moment, or expressing the creativity of
+            its creator. Whether you're an artist seeking a global stage for
+            your work or a collector looking to acquire exclusive digital
+            treasures, our NFT marketplace is the nexus where imagination meets
+            blockchain technology. Join us in shaping the future of digital
+            ownership and expression!
+          </p>
 
-          <li class="card-item">
+          <!-- buttons -->
+          <div class="btn-group">
+            <!-- btn1-->
+            <button class="btn-primary">Explore More</button>
+            <!-- btn-2 -->
+            <button class="btn-secondary">Create Now</button>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="right-sub-section">
+          <div class="img-container">
+            <img
+              src="./assets/images/hero-banner.jpg"
+              alt="hero-banner"
+              class="hero-banner-img"
+              height="450"
+              width="450"
+            />
+          </div>
+        </div>
+      </section>
 
-            <div class="card-container">
-              <!-- image -->
-              <figure class="card-banner-container">
+      <!--* Newest Items -->
+      <section class="newest-section">
+        <!-- upper -->
+        <div class="upper-section">
+          <h1 class="upper-section-title">Newest Items</h1>
 
-                <img src="./assets/images/item-bg-1.jpg" alt="card1" class="card-banner-img">
+          <button class="btn-primary">View All</button>
+        </div>
+        <!-- lower -->
+        <div class="lower-section">
+          <ul class="lower-section-ul">
+            <li class="card-item">
+              <div class="card-container">
+                <!-- image -->
+                <figure class="card-banner-container">
+                  <img
+                    src="./assets/images/item-bg-1.jpg"
+                    alt="card1"
+                    class="card-banner-img"
+                  />
 
-                <div class="card-banner-action">
-                  <!-- menu-bar -->
-                <button class="btn-menu-bar" title="Know More">
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                  </button>
+                  <div class="card-banner-action">
+                    <!-- menu-bar -->
+                    <button class="btn-menu-bar" title="Know More">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </button>
 
-                  <!-- heart -->
-                <button class="btn-heart" title="Like">
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-                </div>
-              </figure>
+                    <!-- heart -->
+                    <button class="btn-heart" title="Like">
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+                </figure>
 
-              <!-- card-content -->
-              <div class="card-content">
-                <!-- card-title -->
-                <h3 class="card-title">
-                  A Blue Body Owl Art Standing
-                </h3>
+                <!-- card-content -->
+                <div class="card-content">
+                  <!-- card-title -->
+                  <h3 class="card-title">A Blue Body Owl Art Standing</h3>
 
-                <!-- user-meta-data -->
-                <div class="user-data-container">
-                  <!-- div-left -->
+                  <!-- user-meta-data -->
+                  <div class="user-data-container">
+                    <!-- div-left -->
 
-                  <div class="left-container">
-                    <!-- img -->
-                    <img src="./assets/images/bidding-user.png" alt="user-img" class="user-img">
-                    <div class="name-container">
-                      <h6 class="user-fullname">USERNAME</h6>
-                      <span class="user-username">@username</span>
+                    <div class="left-container">
+                      <!-- img -->
+                      <img
+                        src="./assets/images/bidding-user.png"
+                        alt="user-img"
+                        class="user-img"
+                      />
+                      <div class="name-container">
+                        <h6 class="user-fullname">USERNAME</h6>
+                        <span class="user-username">@username</span>
+                      </div>
+                    </div>
+
+                    <!-- div-right -->
+                    <div class="right-container">
+                      <div class="name-container">
+                        <h6 class="user-fullname">00.333ETH</h6>
+                        <span class="user-username">Current Bid</span>
+                      </div>
                     </div>
                   </div>
 
-                  <!-- div-right -->
-                  <div class="right-container">
-                    <div class="name-container">
-                      <h6 class="user-fullname">00.333ETH</h6>
-                      <span class="user-username">Current Bid</span>
-                    </div>
+                  <!-- card-footer -->
+                  <div class="card-footer">
+                    <!-- text -->
+                    <p class="card-footer-text">12+ Bids Placed.</p>
+
+                    <button class="card-footer-btn">New</button>
                   </div>
-                </div>
-
-                <!-- card-footer -->
-                <div class="card-footer">
-                  <!-- text -->
-                  <p class="card-footer-text">
-                    12+ Bids Placed.
-                  </p>
-
-                  <button class="card-footer-btn">
-                    New
-                  </button>
                 </div>
               </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="card-item">
+            <li class="card-item">
+              <div class="card-container">
+                <!-- image -->
+                <figure class="card-banner-container">
+                  <img
+                    src="./assets/images/item-bg-2.jpg"
+                    alt="card2"
+                    class="card-banner-img"
+                  />
 
-            <div class="card-container">
-              <!-- image -->
-              <figure class="card-banner-container">
+                  <div class="card-banner-action">
+                    <!-- menu-bar -->
+                    <button class="btn-menu-bar" title="Know More">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </button>
 
-                <img src="./assets/images/item-bg-2.jpg" alt="card2" class="card-banner-img">
+                    <!-- heart -->
+                    <button
+                      class="btn-heart"
+                      data-whishlist-btn
+                      title="Add to Wishlist"
+                    >
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+                </figure>
 
-                <div class="card-banner-action">
-                  <!-- menu-bar -->
-                <button class="btn-menu-bar" title="Know More">
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                  </button>
+                <!-- card-content -->
+                <div class="card-content">
+                  <!-- card-title -->
+                  <h3 class="card-title">A Shiny Diamond Helmet</h3>
 
-                  <!-- heart -->
-                <button class="btn-heart" data-whishlist-btn title="Add to Wishlist">
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
+                  <!-- user-meta-data -->
+                  <div class="user-data-container">
+                    <!-- div-left -->
 
-                </div>
-
-              </figure>
-
-              <!-- card-content -->
-              <div class="card-content">
-                <!-- card-title -->
-                <h3 class="card-title">
-                  A Shiny Diamond Helmet
-                </h3>
-
-                <!-- user-meta-data -->
-                <div class="user-data-container">
-                  <!-- div-left -->
-
-                  <div class="left-container">
-                    <!-- img -->
-                    <img src="./assets/images/seller-01.png" alt="user-img" class="user-img">
-                    <div class="name-container">
-                      <h6 class="user-fullname">USERNAME</h6>
-                      <span class="user-username">@username</span>
+                    <div class="left-container">
+                      <!-- img -->
+                      <img
+                        src="./assets/images/seller-01.png"
+                        alt="user-img"
+                        class="user-img"
+                      />
+                      <div class="name-container">
+                        <h6 class="user-fullname">USERNAME</h6>
+                        <span class="user-username">@username</span>
+                      </div>
+                      <!-- user-fullname -->
+                      <!-- @username -->
                     </div>
-                    <!-- user-fullname -->
-                    <!-- @username -->
+
+                    <!-- div-right -->
+                    <div class="right-container">
+                      <div class="name-container">
+                        <h6 class="user-fullname">00.333ETH</h6>
+                        <span class="user-username">Current Bid</span>
+                      </div>
+                    </div>
                   </div>
 
-                  <!-- div-right -->
-                  <div class="right-container">
-                    <div class="name-container">
-                      <h6 class="user-fullname">00.333ETH</h6>
-                      <span class="user-username">Current Bid</span>
-                    </div>
+                  <!-- card-footer -->
+                  <div class="card-footer">
+                    <!-- text -->
+                    <p class="card-footer-text">12+ Bids Placed.</p>
+
+                    <button class="card-footer-btn">New</button>
+                    <!-- button -->
                   </div>
                 </div>
+              </div>
+            </li>
 
-                <!-- card-footer -->
-                <div class="card-footer">
-                  <!-- text -->
-                  <p class="card-footer-text">
-                      12+ Bids Placed.
+            <li class="card-item">
+              <div class="card-container">
+                <!-- image -->
+                <figure class="card-banner-container">
+                  <img
+                    src="./assets/images/item-bg-3.jpg"
+                    alt="card1"
+                    class="card-banner-img"
+                  />
+
+                  <div class="card-banner-action">
+                    <!-- menu-bar -->
+                    <button class="btn-menu-bar" title="Know More">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </button>
+
+                    <!-- heart -->
+                    <button class="btn-heart" title="Like">
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+                </figure>
+
+                <!-- card-content -->
+                <div class="card-content">
+                  <!-- card-title -->
+                  <h3 class="card-title">A Blue Diamond Jelly Fish</h3>
+
+                  <!-- user-meta-data -->
+                  <div class="user-data-container">
+                    <!-- div-left -->
+
+                    <div class="left-container">
+                      <!-- img -->
+                      <img
+                        src="./assets/images/seller-02.png"
+                        alt="user-img"
+                        class="user-img"
+                      />
+                      <div class="name-container">
+                        <h6 class="user-fullname">USERNAME</h6>
+                        <span class="user-username">@username</span>
+                      </div>
+                      <!-- user-fullname -->
+                      <!-- @username -->
+                    </div>
+
+                    <!-- div-right -->
+                    <div class="right-container">
+                      <div class="name-container">
+                        <h6 class="user-fullname">00.333ETH</h6>
+                        <span class="user-username">Current Bid</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- card-footer -->
+                  <div class="card-footer">
+                    <!-- text -->
+                    <p class="card-footer-text">12+ Bids Placed.</p>
+
+                    <button class="card-footer-btn">New</button>
+                    <!-- button -->
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <div class="card-container">
+                <!-- image -->
+                <figure class="card-banner-container">
+                  <img
+                    src="./assets/images/item-bg-4.jpg"
+                    alt="card1"
+                    class="card-banner-img"
+                  />
+
+                  <div class="card-banner-action">
+                    <!-- menu-bar -->
+                    <button class="btn-menu-bar" title="Know More">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </button>
+
+                    <!-- heart -->
+                    <button class="btn-heart" title="Like">
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+                </figure>
+
+                <!-- card-content -->
+                <div class="card-content">
+                  <!-- card-title -->
+                  <h3 class="card-title">A Shiny Diamond Rabbit</h3>
+
+                  <!-- user-meta-data -->
+                  <div class="user-data-container">
+                    <!-- div-left -->
+
+                    <div class="left-container">
+                      <!-- img -->
+                      <img
+                        src="./assets/images/seller-04.png"
+                        alt="user-img"
+                        class="user-img"
+                      />
+                      <div class="name-container">
+                        <h6 class="user-fullname">USERNAME</h6>
+                        <span class="user-username">@username</span>
+                      </div>
+                      <!-- user-fullname -->
+                      <!-- @username -->
+                    </div>
+
+                    <!-- div-right -->
+                    <div class="right-container">
+                      <div class="name-container">
+                        <h6 class="user-fullname">00.333ETH</h6>
+                        <span class="user-username">Current Bid</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- card-footer -->
+                  <div class="card-footer">
+                    <!-- text -->
+                    <p class="card-footer-text">12+ Bids Placed.</p>
+
+                    <button class="card-footer-btn">New</button>
+                    <!-- button -->
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="card-item">
+              <div class="card-container">
+                <!-- image -->
+                <figure class="card-banner-container">
+                  <img
+                    src="./assets/images/item-bg-5.jpg"
+                    alt="card1"
+                    class="card-banner-img"
+                  />
+
+                  <div class="card-banner-action">
+                    <!-- menu-bar -->
+                    <button class="btn-menu-bar" title="Know More">
+                      <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                    </button>
+
+                    <!-- heart -->
+                    <button class="btn-heart" title="Like">
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+                </figure>
+
+                <!-- card-content -->
+                <div class="card-content">
+                  <!-- card-title -->
+                  <h3 class="card-title">A Shiny Diamond Lion</h3>
+
+                  <!-- user-meta-data -->
+                  <div class="user-data-container">
+                    <!-- div-left -->
+
+                    <div class="left-container">
+                      <!-- img -->
+                      <img
+                        src="./assets/images/seller-05.png"
+                        alt="user-img"
+                        class="user-img"
+                      />
+                      <div class="name-container">
+                        <h6 class="user-fullname">USERNAME</h6>
+                        <span class="user-username">@username</span>
+                      </div>
+                    </div>
+
+                    <!-- div-right -->
+                    <div class="right-container">
+                      <div class="name-container">
+                        <h6 class="user-fullname">00.333ETH</h6>
+                        <span class="user-username">Current Bid</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- card-footer -->
+                  <div class="card-footer">
+                    <!-- text -->
+                    <p class="card-footer-text">12+ Bids Placed.</p>
+
+                    <button class="card-footer-btn">New</button>
+                    <!-- button -->
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--*About Section -->
+      <section class="about">
+        <div class="about-container">
+          <!-- header -->
+          <h1 class="about-title">
+            Create And Sell Your NFTs In This Exclusive Marketplace
+          </h1>
+
+          <ol class="about-content">
+            <li class="about-items-list">
+              <div class="about-item">
+                <div class="card-number">01</div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/single-create-sell-item-1.png"
+                    alt="wallet icon"
+                  />
+                </div>
+
+                <h3 class="about-title">Create your NFTs</h3>
+
+                <p class="about-desc">
+                  Non Fungible Tokens can be created by anyone who has a digital
+                  asset to sell. You can create your NFTs by uploading your
+                  digital art, music, videos, and other digital /assets. You can
+                  also set the price and the number of copies you want to sell.
                 </p>
-
-                  <button class="card-footer-btn">
-                    New
-                  </button>
-                  <!-- button -->
-                </div>
-
               </div>
-            </div>
-          </li>
+            </li>
 
-          <li class="card-item">
-
-            <div class="card-container">
-              <!-- image -->
-              <figure class="card-banner-container">
-
-                <img src="./assets/images/item-bg-3.jpg" alt="card1" class="card-banner-img">
-
-                <div class="card-banner-action">
-                  <!-- menu-bar -->
-                <button class="btn-menu-bar" title="Know More">
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                  </button>
-
-                  <!-- heart -->
-                <button class="btn-heart" title="Like">
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
+            <li class="about-items-list">
+              <div class="about-item">
+                <div class="card-number">02</div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/single-create-sell-item-2.png"
+                    alt="wallet icon"
+                  />
                 </div>
 
-              </figure>
+                <h3 class="about-title">Store your NFTs</h3>
 
-              <!-- card-content -->
-              <div class="card-content">
-                <!-- card-title -->
-                <h3 class="card-title">
-                  A Blue Diamond Jelly Fish
+                <p class="about-desc">
+                  You can store your NFTs in your digital wallet. You can also
+                  transfer your NFTs to other wallets or sell them in the
+                  marketplace. You can also set the price and the number of
+                  copies you want to sell.
+                </p>
+              </div>
+            </li>
+
+            <li class="about-items-list">
+              <div class="about-item">
+                <div class="card-number">03</div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/single-create-sell-item-3.png"
+                    alt="Folder icon"
+                  />
+                </div>
+
+                <h3 class="about-title">
+                  One Place Destination To View All NFTs
                 </h3>
 
-                <!-- user-meta-data -->
-                <div class="user-data-container">
-                  <!-- div-left -->
+                <p class="about-desc">
+                  You can view all the NFTs in the marketplace. You can also
+                  view the details of the NFTs and the creator. You can also buy
+                  the NFTs by placing a bid or by buying them directly.
+                </p>
+              </div>
+            </li>
 
-                  <div class="left-container">
-                    <!-- img -->
-                    <img src="./assets/images/seller-02.png" alt="user-img" class="user-img">
-                    <div class="name-container">
-                      <h6 class="user-fullname">USERNAME</h6>
-                      <span class="user-username">@username</span>
-                    </div>
-                    <!-- user-fullname -->
-                    <!-- @username -->
-                  </div>
-
-                  <!-- div-right -->
-                  <div class="right-container">
-                    <div class="name-container">
-                      <h6 class="user-fullname">00.333ETH</h6>
-                      <span class="user-username">Current Bid</span>
-                    </div>
-                  </div>
+            <li class="about-items-list">
+              <div class="about-item">
+                <div class="card-number">04</div>
+                <div class="image-container">
+                  <img
+                    src="./assets/images/single-create-sell-item-4.png"
+                    alt="Diamond icon"
+                  />
                 </div>
 
+                <h3 class="about-title">Bid For Your Favorite NFTs</h3>
 
-                <!-- card-footer -->
-                <div class="card-footer">
-                  <!-- text -->
-                  <p class="card-footer-text">
-                    12+ Bids Placed.
-                  </p>
-
-                  <button class="card-footer-btn">
-                    New
-                  </button>
-                  <!-- button -->
-                </div>
-
+                <p class="about-desc">
+                  You can place a bid for your favorite NFTs. You can also view
+                  the current bid and the number of bids placed. You can also
+                  buy the NFTs by placing a bid or by buying them directly.
+                </p>
               </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
 
-
-
-            </div>
-          </li>
-
-
-          <li class="card-item">
-
-            <div class="card-container">
-              <!-- image -->
-              <figure class="card-banner-container">
-
-                <img src="./assets/images/item-bg-4.jpg" alt="card1" class="card-banner-img">
-
-                <div class="card-banner-action">
-                  <!-- menu-bar -->
-                <button class="btn-menu-bar" title="Know More">
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                  </button>
-
-                  <!-- heart -->
-                <button class="btn-heart" title="Like">
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-              </figure>
-
-              <!-- card-content -->
-              <div class="card-content">
-                <!-- card-title -->
-                <h3 class="card-title">
-                  A Shiny Diamond Rabbit 
-                </h3>
-
-                <!-- user-meta-data -->
-                <div class="user-data-container">
-                  <!-- div-left -->
-
-                  <div class="left-container">
-                    <!-- img -->
-                    <img src="./assets/images/seller-04.png" alt="user-img" class="user-img">
-                    <div class="name-container">
-                      <h6 class="user-fullname">USERNAME</h6>
-                      <span class="user-username">@username</span>
-                    </div>
-                    <!-- user-fullname -->
-                    <!-- @username -->
-                  </div>
-
-                  <!-- div-right -->
-                  <div class="right-container">
-                    <div class="name-container">
-                      <h6 class="user-fullname">00.333ETH</h6>
-                      <span class="user-username">Current Bid</span>
-                    </div>
-                  </div>
-                </div>
-
-
-                <!-- card-footer -->
-                <div class="card-footer">
-                  <!-- text -->
-                  <p class="card-footer-text">
-                    12+ Bids Placed.
-                  </p>
-
-                  <button class="card-footer-btn">
-                    New
-                  </button>
-                  <!-- button -->
-                </div>
-
-              </div>
-
-
-
-            </div>
-          </li>
-
-
-          <li class="card-item">
-
-            <div class="card-container">
-              <!-- image -->
-              <figure class="card-banner-container">
-
-                <img src="./assets/images/item-bg-5.jpg" alt="card1" class="card-banner-img">
-
-                <div class="card-banner-action">
-                  <!-- menu-bar -->
-                <button class="btn-menu-bar" title="Know More">
-                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
-                  </button>
-
-                  <!-- heart -->
-                <button class="btn-heart" title="Like">
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-              </figure>
-
-              <!-- card-content -->
-              <div class="card-content">
-                <!-- card-title -->
-                <h3 class="card-title">
-                  A Shiny Diamond Lion 
-                </h3>
-
-                <!-- user-meta-data -->
-                <div class="user-data-container">
-                  <!-- div-left -->
-
-                  <div class="left-container">
-                    <!-- img -->
-                    <img src="./assets/images/seller-05.png" alt="user-img" class="user-img">
-                    <div class="name-container">
-                      <h6 class="user-fullname">USERNAME</h6>
-                      <span class="user-username">@username</span>
-                    </div>
-                  </div>
-
-                  <!-- div-right -->
-                  <div class="right-container">
-                    <div class="name-container">
-                      <h6 class="user-fullname">00.333ETH</h6>
-                      <span class="user-username">Current Bid</span>
-                    </div>
-                  </div>
-                </div>
-
-
-                <!-- card-footer -->
-                <div class="card-footer">
-                  <!-- text -->
-                  <p class="card-footer-text">
-                    12+ Bids Placed.
-                  </p>
-
-                  <button class="card-footer-btn">
-                    New
-                  </button>
-                  <!-- button -->
-                </div>
-
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!--*About Section -->
-    <section class="about">
-      <div class="about-container">
-        <!-- header -->
-        <h1 class="about-title">
-          Create And Sell Your NFTs In This Exclusive Marketplace
-        </h1>
-
-        <ol class="about-content">
-
-          <li class="about-items-list">
-            <div class="about-item">
-              <div class="card-number">
-                01
-              </div>
-              <div class="image-container">
-                <img src="./assets/images/single-create-sell-item-1.png" alt="wallet icon">
-              </div>
-
-              <h3 class="about-title">
-                Create your NFTs
-              </h3>
-
-              <p class="about-desc">
-                Non Fungible Tokens can be created by anyone who has a digital asset to sell. You can create your NFTs by uploading your digital art, music, videos, and other digital /assets. You can also set the price and the number of copies you want to sell.
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-items-list">
-            <div class="about-item">
-              <div class="card-number">
-                02
-              </div>
-              <div class="image-container">
-                <img src="./assets/images/single-create-sell-item-2.png" alt="wallet icon">
-              </div>
-
-              <h3 class="about-title">
-                Store your NFTs
-              </h3>
-
-              <p class="about-desc">
-                You can store your NFTs in your digital wallet. You can also transfer your NFTs to other wallets or sell them in the marketplace. You can also set the price and the number of copies you want to sell.
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-items-list">
-            <div class="about-item">
-              <div class="card-number">
-                03
-              </div>
-              <div class="image-container">
-                <img src="./assets/images/single-create-sell-item-3.png" alt="Folder icon">
-              </div>
-
-              <h3 class="about-title">
-                One Place Destination To View All NFTs
-              </h3>
-
-              <p class="about-desc">
-                You can view all the NFTs in the marketplace. You can also view the details of the NFTs and the creator. You can also buy the NFTs by placing a bid or by buying them directly.
-              </p>
-
-            </div>
-          </li>
-
-          <li class="about-items-list">
-            <div class="about-item">
-              <div class="card-number">
-                04
-              </div>
-              <div class="image-container">
-                <img src="./assets/images/single-create-sell-item-4.png" alt="Diamond icon">
-              </div>
-
-              <h3 class="about-title">
-                Bid For Your Favorite NFTs
-              </h3>
-
-              <p class="about-desc">
-                You can place a bid for your favorite NFTs. You can also view the current bid and the number of bids placed. You can also buy the NFTs by placing a bid or by buying them directly.
-              </p>
-
-            </div>
-          </li>
-
-        </ol>
-
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="script.js">
-</script>
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
