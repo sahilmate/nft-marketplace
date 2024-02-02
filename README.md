@@ -21,7 +21,7 @@ This website is primarily constructed using **HTML** and **CSS** for the structu
 **JavaScript** is utilized minimally to enhance the functionality and provide dynamic behavior.
 
 
-# Files
+# 😎 Files
 
 1. **[index.html](https://github.com/sahilmate/nft-marketplace/blob/main/index.html)**
 
@@ -35,7 +35,7 @@ This website is primarily constructed using **HTML** and **CSS** for the structu
 
    The JavaScript file handles the dynamic behavior of the web page. It includes functionality to toggle the "active" class when a "btn-heart" (like) button is clicked.
 
-## Usage
+## 🎊 Usage
 
 > To use or contribute to this project, follow the steps below:
 
@@ -59,7 +59,7 @@ cd your-repo
 
 > Open the `index.html` file in a web browser to view the NFT marketplace.
 
-## Contributing
+## 🙌 Contributing
 
 > If you would like to contribute to this project, follow these steps:
 
@@ -86,7 +86,7 @@ cd your-repo
 
   5. Open a pull request on the original repository.
 
-## Additional Information
+## ✨ Additional Information
 
 - This project uses [Ionicons](https://ionicons.com/ "OSS Icon Set") for icon integration.
 - The design is responsive and suitable for various screen sizes.
@@ -97,3 +97,7 @@ Feel free to explore, modify, and enhance this NFT marketplace project!
 ```
 Happy coding! 🚀
 ```
+##  ⭐ License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
