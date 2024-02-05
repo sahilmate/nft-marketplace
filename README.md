@@ -85,6 +85,13 @@ cd your-repo
    ```
 
   5. Open a pull request on the original repository.
+## 🌨️ Improvisations
+- [ ] Fully Responsive Design
+- [ ] Accessibility
+- [ ] Performance Optimization (SEO)
+- [ ] User Authentication
+- [ ] Feedback Mechanism
+- [ ] Real-time Data Fetching
 
 ## ✨ Additional Information
 
